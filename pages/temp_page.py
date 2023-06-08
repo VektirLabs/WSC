@@ -1,17 +1,14 @@
 # page2.py
+import dash
+from dash import html, dcc
 
-import dash_bootstrap_components as dbc
-from dash import html
+dash.register_page(__name__, path='/temp_page')
 
-layout = dbc.Container([
-    dbc.Row([
-        dbc.Col([
-            html.H2("Template Page"),
-            html.P("This is the content of Page 2.")
-        ])
-    ])
+layout = html.Div(children=[
+    html.H1(children='This is our Temp page'),
+
+    html.Div(children='''
+        This is our Temp page content.
+    '''),
+
 ])
-
-def register_callbacks(app):
-    pass
-

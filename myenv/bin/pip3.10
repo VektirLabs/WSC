@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/tylerhunt/Library/Mobile Documents/com~apple~CloudDocs/Developer/WSC/myenv/bin/python3" "$0" "$@"
+'''exec' "/Users/tylerhunt/Library/Mobile Documents/com~apple~CloudDocs/Developer/WSC/myenv/bin/python3.11" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
